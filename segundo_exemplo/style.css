@@ -1,0 +1,20 @@
+body {
+    background-image: url(bg.png);
+    background-size: cover;
+}
+
+h2 {
+    color: blueviolet;
+    text-align: center;
+    border: 5px solid purple;
+    cursor: pointer;
+}
+
+p{
+    color: rgb(250, 82, 222);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}

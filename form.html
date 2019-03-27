@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <Head>
+        <title>Registro</title>
+    </Head>
+    <body>
+        <!--Use POST, not GET-->
+
+        <div>
+            <form method="POST">
+                Nome: <input type="text" name="nome"><br>
+                Sobrenome: <input type="text" name="sobrenome"><br>
+                E-mail : <input type="email" name="email"><br>
+                Senha: <input type="password" name="senha" min="8"><br>
+                Aniversário: <input type="date" name="aniversario"><br>
+                Gênero: <input type="radio" name="genero" value="homem">Homem
+                        <input type="radio" name="genero" value="mulher">Mulher
+                        <input type="radio" name="genero" value="indefinido">Indefinido<br>
+                Pets:<br>
+                    <input type="checkbox" name="gato">Gato<br>
+                    <input type="checkbox" name="cachorro">Cachorro<br>
+                    <input type="checkbox" name="ave">Ave<br>
+                    <input type="checkbox" name="outros">Outros<br>
+                Carro:
+                    <select name="carro">
+                    <option value="volkswagen" name="volkswagen">Volkswagen</option>
+                    <option value="fiat" name="fiat">Fiat</option>
+                    <option value="renault" name="renault">Renault</option>
+                    </select><br>
+
+                <input type="submit"value="Registrar!">
+                <input type="reset">
+
+            </form>
+                <a href="index.html">voltar</a>
+        </div>
+    </body>
+</html>
